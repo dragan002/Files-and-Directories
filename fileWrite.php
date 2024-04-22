@@ -14,6 +14,6 @@ fclose($handle);
 
 
 $filepath = __DIR__ . '/assets/text4Write.txt';
-$data = "A page of data";
+$data = "A page of data\r\nokkkkk\r\nTHis is new line\r\nTHis is second new line";
 
 file_put_contents($filepath, $data);
